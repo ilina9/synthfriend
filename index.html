@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Piano Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="paino-container">
+            <h1>Your Digital Synth Friend</h1>
+            <p>Press the corresponding key(s) or click the piano key button to play it</p>
+            <div>
+                <button onclick="playSound('C')" class="white-key">C/B# <br> (z)</button>
+
+                <button onclick="playSound('Cs')" class="black-key">C#/Db <br> (s)</button>
+
+                <button onclick="playSound('D')" class="white-key">D <br> (x)</button>
+
+                <button onclick="playSound('Ds')" class="black-key">D#/Eb <br> (d)</button>
+
+                <button onclick="playSound('E')" class="white-key">E/Fb <br> (c)</button>
+
+                <button onclick="playSound('F')" class="white-key">F/E#  <br> (v)</button>
+
+                <button onclick="playSound('Fs')" class="black-key">F#/Gb <br> (g)</button>
+
+                <button onclick="playSound('G')" class="white-key">G <br> (b)</button>
+
+                <button onclick="playSound('Gs')" class="black-key">G#/Ab <br> (h)</button>
+
+                <button onclick="playSound('A')" class="white-key">A <br> (n)</button>
+
+                <button onclick="playSound('As')" class="black-key">A#/Bb <br> (j)</button>
+
+                <button onclick="playSound('B')" class="white-key">B/Cb <br> (m)</button>
+
+                <button onclick="playSound('C5')" class="white-key">C/B#  <br> (k)</button>
+
+            </div>
+        <h3>Tip:</h3>
+        <p>Try pressing multiple notes together to make a chord. For example, press the keys Z, C and B to make the C major chord :)</p>
+    </div>
+
+  <script src="script.js"></script>  
+</body>
+</html>
